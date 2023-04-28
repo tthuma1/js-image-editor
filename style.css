@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  background-color: #1c1b1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 1.3rem 1rem;
+  color: #e4e4e4;
+}
+
+.btn-primary {
+  background-color: #115e59;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+.btn-primary:hover {
+  background-color: #0f766e;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #203130;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+.btn-secondary:hover {
+  background-color: #273938;
+}
+
+#brightness-input {
+  background: linear-gradient(
+    to right,
+    #82cfd0 0%,
+    #82cfd0 50%,
+    #fff 50%,
+    #fff 100%
+  );
+  border: solid 1px #82cfd0;
+  border-radius: 8px;
+  height: 0.4rem;
+  width: 100%;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.input {
+  background-color: #28272c;
+  border: 1px solid #333;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+#brightness-input {
+  max-width: 28rem;
+}
+
+.history-el {
+  background-color: #203130;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.5rem 0.6rem;
+  color: white;
+  height: fit-content;
+  width: 15rem;
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+#brush-button.active,
+#crop-btn.active {
+  background-color: #115e59;
+}
+
+select {
+  background-color: #28272c;
+  border: 1px solid #333;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.btn-secondary:disabled {
+  color: #ababab;
+}
+
+.btn-secondary:disabled:hover {
+  background-color: #203130;
+}
+
+.btn-tertiary {
+  background-color: #203130;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.3rem;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.8rem;
+}
+
+.btn-tertiary:hover {
+  background-color: #273938;
+}
+
+table {
+  text-align: center;
+}
